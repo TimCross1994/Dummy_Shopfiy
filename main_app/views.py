@@ -5,4 +5,7 @@ from django.http import HttpResponse
 
 
 def home(request):
-  return render(request, 'product_form.html')
+  return HttpResponse('<h1>Hello /ᐠ｡‸｡ᐟ\ﾉ</h1>')
+
+def about(request):
+    return render(request, 'about.html')
