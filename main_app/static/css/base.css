@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  body{
+  background-color: #ececec;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  }
+
+  html, body {
+      min-height: 100%;
+  }
+
+  #header-links{
+      display: flex;
+      flex-direction: column
+  }
+  .wrapper {
+    padding-left: 300px;
+}
